@@ -47,6 +47,42 @@ str="The best things in life are free!"
 text="free"
 print(text not in str)
 
+#strings slicing
+x="Learning Python"
+print(x[2:5]) # notice that character at index 5 is not included 
+
+print(x[:5])
+
+print(x[2:])
+
+print(x[-5:-2])
+
+#python in built methods to modify strings
+#method 1----------> length
+str="hello guysssssssssssssssssssssssssssssss"
+print(len(str))
+#method2 ----------->upper()
+print(str.upper())
+#method3 ----------->lower()
+print(str.lower())
+#method4------------->strip()
+str="   hello world    "
+print(str.strip())
+#method5------------->replace()
+print(str.replace("h","j"))
+#method6-------------->split()
+s="hello,my,name,is,gayathri"
+print(s.split(","))
+
+#String formatting
+price=70
+text=f"the price is {price} dollars"
+print(text)
+
+
+
+
+
 
 
 
