@@ -1,0 +1,8 @@
+this content is from file1
+this content is from file2
+hii World
+hii!
+Gayathri here
+learning file handling in python
+aiming to be a ai engineer
+this is the content from source file
